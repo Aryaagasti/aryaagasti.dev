@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0f0f0" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGradient)" />
+  
+  <!-- Decorative elements -->
+  <circle cx="120" cy="120" r="20" fill="#ffffff" opacity="0.2" />
+  <circle cx="400" cy="150" r="15" fill="#ffffff" opacity="0.2" />
+  <circle cx="350" cy="400" r="25" fill="#ffffff" opacity="0.2" />
+  <circle cx="180" cy="380" r="18" fill="#ffffff" opacity="0.2" />
+  
+  <!-- Code brackets design -->
+  <g filter="url(#glow)">
+    <!-- Left bracket -->
+    <path d="M180,140 L120,256 L180,372" 
+          stroke="url(#textGradient)" 
+          stroke-width="24" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          fill="none" />
+    
+    <!-- Right bracket -->
+    <path d="M332,140 L392,256 L332,372" 
+          stroke="url(#textGradient)" 
+          stroke-width="24" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          fill="none" />
+    
+    <!-- Center letter A -->
+    <path d="M256,140 L216,372 M256,140 L296,372 M226,290 L286,290" 
+          stroke="url(#textGradient)" 
+          stroke-width="24" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          fill="none" />
+  </g>
+</svg>

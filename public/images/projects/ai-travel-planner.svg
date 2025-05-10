@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#f0f9ff"/>
+  
+  <!-- Background elements -->
+  <g opacity="0.1">
+    <path d="M0,300 Q200,250 400,300 T800,250" stroke="#3b82f6" stroke-width="5" fill="none"/>
+    <path d="M0,320 Q200,270 400,320 T800,270" stroke="#3b82f6" stroke-width="4" fill="none"/>
+    <path d="M0,340 Q200,290 400,340 T800,290" stroke="#3b82f6" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- World map outline -->
+  <g transform="translate(100, 100) scale(0.6)" opacity="0.2">
+    <path d="M400,50 C500,50 550,100 600,150 C650,200 700,250 700,300 C700,350 650,400 600,400 C550,400 500,350 450,300 C400,250 350,200 300,150 C250,100 200,50 100,50 C50,50 0,100 0,150 C0,200 50,250 100,300 C150,350 200,400 250,400 C300,400 350,350 400,300 C450,250 500,200 550,150 C600,100 650,50 700,50" 
+          stroke="#3b82f6" stroke-width="8" fill="none"/>
+  </g>
+  
+  <!-- App UI -->
+  <rect x="450" y="80" width="280" height="240" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- App header -->
+  <rect x="450" y="80" width="280" height="50" rx="20" fill="#7c3aed"/>
+  <text x="590" y="112" font-family="Arial" font-size="18" fill="white" text-anchor="middle">Arya's TravelMate AI</text>
+  
+  <!-- App content -->
+  <g>
+    <!-- Destination input -->
+    <rect x="470" y="150" width="240" height="40" rx="5" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="490" y="175" font-family="Arial" font-size="14" fill="#64748b">Where do you want to go?</text>
+    
+    <!-- AI response -->
+    <rect x="470" y="200" width="240" height="80" rx="5" fill="#f0f9ff" stroke="#e2e8f0"/>
+    <text x="490" y="225" font-family="Arial" font-size="12" fill="#334155">I recommend visiting Bali in June!</text>
+    <text x="490" y="250" font-family="Arial" font-size="12" fill="#334155">Perfect weather and fewer tourists.</text>
+    <text x="490" y="275" font-family="Arial" font-size="12" fill="#334155">Would you like an itinerary?</text>
+  </g>
+  
+  <!-- AI assistant character -->
+  <g transform="translate(200, 200)">
+    <!-- Robot head -->
+    <circle cx="0" cy="0" r="60" fill="#7c3aed"/>
+    <circle cx="-20" cy="-15" r="10" fill="white"/>
+    <circle cx="20" cy="-15" r="10" fill="white"/>
+    <circle cx="-20" cy="-15" r="5" fill="#3b82f6"/>
+    <circle cx="20" cy="-15" r="5" fill="#3b82f6"/>
+    
+    <!-- Smile -->
+    <path d="M-20,20 Q0,40 20,20" stroke="white" stroke-width="4" fill="none"/>
+    
+    <!-- Antenna -->
+    <line x1="0" y1="-60" x2="0" y2="-80" stroke="#7c3aed" stroke-width="6"/>
+    <circle cx="0" cy="-85" r="8" fill="#3b82f6"/>
+    
+    <!-- Travel elements around the robot -->
+    <g transform="translate(-100, -80)">
+      <path d="M0,0 L20,0 L10,15 Z" fill="#3b82f6"/> <!-- Airplane -->
+    </g>
+    <g transform="translate(80, -60)">
+      <circle cx="0" cy="0" r="10" fill="#3b82f6" opacity="0.7"/> <!-- Globe point -->
+    </g>
+    <g transform="translate(90, 30)">
+      <rect x="0" y="0" width="15" height="20" rx="2" fill="#3b82f6" opacity="0.7"/> <!-- Suitcase -->
+    </g>
+    <g transform="translate(-80, 50)">
+      <path d="M0,0 L15,0 L15,10 L7.5,15 L0,10 Z" fill="#3b82f6" opacity="0.7"/> <!-- Location pin -->
+    </g>
+  </g>
+  
+  <!-- Text elements -->
+  <text x="200" y="80" font-family="Arial" font-size="24" font-weight="bold" fill="#7c3aed">Arya's TravelMate AI</text>
+  <text x="200" y="110" font-family="Arial" font-size="16" fill="#64748b">Your AI Travel Companion</text>
+  
+  <!-- Features -->
+  <g transform="translate(120, 320)">
+    <circle cx="0" cy="0" r="15" fill="#7c3aed" opacity="0.8"/>
+    <text x="30" y="5" font-family="Arial" font-size="14" fill="#334155">Discover Destinations</text>
+  </g>
+  
+  <g transform="translate(320, 320)">
+    <circle cx="0" cy="0" r="15" fill="#7c3aed" opacity="0.8"/>
+    <text x="30" y="5" font-family="Arial" font-size="14" fill="#334155">Create Itineraries</text>
+  </g>
+  
+  <g transform="translate(520, 320)">
+    <circle cx="0" cy="0" r="15" fill="#7c3aed" opacity="0.8"/>
+    <text x="30" y="5" font-family="Arial" font-size="14" fill="#334155">Real-time Advice</text>
+  </g>
+</svg>
