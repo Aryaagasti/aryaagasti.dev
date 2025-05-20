@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Background elements -->
+  <circle cx="400" cy="300" r="250" fill="#e9ecef" opacity="0.7"/>
+  <circle cx="200" cy="150" r="80" fill="#dee2e6" opacity="0.5"/>
+  <circle cx="600" cy="450" r="100" fill="#dee2e6" opacity="0.5"/>
+  
+  <!-- Link chain icon -->
+  <g transform="translate(250, 200) scale(1.5)">
+    <!-- First link -->
+    <path d="M60,90 L90,60 C102.1,47.9 121.9,47.9 134,60 C146.1,72.1 146.1,91.9 134,104 L104,134 C91.9,146.1 72.1,146.1 60,134 C47.9,121.9 47.9,102.1 60,90 Z" fill="none" stroke="#6c63ff" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Second link -->
+    <path d="M140,110 L170,80 C182.1,67.9 201.9,67.9 214,80 C226.1,92.1 226.1,111.9 214,124 L184,154 C171.9,166.1 152.1,166.1 140,154 C127.9,141.9 127.9,122.1 140,110 Z" fill="none" stroke="#6c63ff" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Scissors icon -->
+  <g transform="translate(450, 300) scale(0.8)">
+    <circle cx="40" cy="40" r="20" fill="#ff6b6b"/>
+    <circle cx="40" cy="120" r="20" fill="#ff6b6b"/>
+    <path d="M40,40 L120,100 M40,120 L120,60" stroke="#ff6b6b" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#212529">Snippy</text>
+  <text x="400" y="520" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#495057">URL Shortener</text>
+</svg>

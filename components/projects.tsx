@@ -10,6 +10,14 @@ import Image from "next/image"
 
 const projects = [
   {
+    title: "Snippy URL Shortener",
+    description: "A full-stack URL shortening service that transforms long URLs into short, memorable links. Features include custom slugs, click analytics, secure authentication with email and Google sign-in, and responsive design for all devices.",
+    image: "/images/projects/snippy.svg",
+    technologies: ["React", "Node.js", "Express", "Firebase Auth", "Firebase Firestore", "Bootstrap"],
+    github: "https://github.com/Aryaagasti/Snippy",
+    demo: "https://snippy-pi.vercel.app/",
+  },
+  {
     title: "ResumePro",
     description: "AI-powered career development platform that helps users analyze and optimize their resumes, find job matches, generate tailored cover letters, and get personalized course recommendations. Final year MCA project made in collaboration with Anand Jugnake.",
     image: "/images/projects/resumepro.svg",
